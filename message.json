@@ -1,0 +1,76 @@
+{
+  "errors": {
+    "400": {
+      "message": {
+        "th": "คำขอไม่ถูกต้อง",
+        "en": "Bad Request"
+      },
+      "description": {
+        "th": "คำขอไม่ถูกต้องหรือไม่สมบูรณ์",
+        "en": "The request is invalid or malformed."
+      }
+    },
+    "401": {
+      "message": {
+        "th": "ไม่ได้รับอนุญาต",
+        "en": "Unauthorized"
+      },
+      "description": {
+        "th": "การเข้าถึงทรัพยากรที่ร้องขอต้องการการรับรองตัวตน",
+        "en": "Access to the requested resource requires authentication."
+      }
+    },
+    "403": {
+      "message": {
+        "th": "ถูกปฏิเสธ",
+        "en": "Forbidden"
+      },
+      "description": {
+        "th": "คุณไม่ได้รับอนุญาตให้เข้าถึงทรัพยากรที่ร้องขอ",
+        "en": "You don't have permission to access the requested resource."
+      }
+    },
+    "404": {
+      "message": {
+        "th": "ไม่พบ",
+        "en": "Not Found"
+      },
+      "description": {
+        "th": "ไม่พบทรัพยากรที่ร้องขอ",
+        "en": "The requested resource could not be found."
+      }
+    },
+    "500": {
+      "message": {
+        "th": "ข้อผิดพลาดภายในเซิร์ฟเวอร์",
+        "en": "Internal Server Error"
+      },
+      "description": {
+        "th": "เกิดข้อผิดพลาดที่ไม่คาดคิดบนเซิร์ฟเวอร์",
+        "en": "An unexpected error occurred on the server."
+      }
+    },
+    "503": {
+      "message": {
+        "th": "บริการไม่สามารถใช้งานได้",
+        "en": "Service Unavailable"
+      },
+      "description": {
+        "th": "เซิร์ฟเวอร์ไม่สามารถรับการร้องขอในปัจจุบันได้",
+        "en": "The server is currently unable to handle the request."
+      }
+    }
+  },
+  "success": {
+    "200": {
+      "message": {
+        "th": "สำเร็จ",
+        "en": "Success"
+      },
+      "description": {
+        "th": "ดำเนินการเสร็จสิ้นเรียบร้อยแล้ว",
+        "en": "The operation completed successfully."
+      }
+    }
+  }
+}
