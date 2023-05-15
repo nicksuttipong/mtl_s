@@ -2,7 +2,7 @@
   "errors": {
     "400": {
       "message": {
-        "th": "คำขอไม่ถูกต้อง",
+        "th": "คำขอไม่ถูกต้องง",
         "en": "Bad Request"
       },
       "description": {
